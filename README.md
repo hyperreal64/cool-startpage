@@ -13,8 +13,10 @@ This is useful for me because:
 
 I know next to nothing about JavaScript, HTML, and CSS, so I mostly just played this by ear (or rather, eye). One of these days I will figure out how to do this for Chromium-based browsers, but not today.
 
-## Setting the starpage as the Home page
-Clone this repo and copy the starpage dir to the firefox profile:
+![screenshot](screenshot.png)
+
+## Setting the startpage as the Home page
+Clone this repo and copy the startpage dir to the firefox profile:
 ```
 git clone https://github.com/hyperreal64/cool-startpage.git
 cd cool-startpage
