@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts/search.js"></script>
+    <script src="scripts/load.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="search_box">
+
+          <img class="engine" id="engineLogo" src="wp.svg" onclick="toggleEngine()" style="cursor:pointer" />
+
+          <div id="wSearch" style="display:block;">
+            <form class="wikipedia" action="https://en.wikipedia.org/w/" method="get">
+              <input class="input_box" type="text" name="search" placeholder="Search Wikipedia">
+            </form>
+          </div>
+
+          <div id="aSearch" style="display:none;">
+            <form class="archlinux" action="https://wiki.archlinux.org/" method="get">
+              <input class="input_box" type="text" name="search" placeholder="Search ArchWiki">
+            </form>
+        </div>
+      </div>
+
+      <div class="bookmark">
+        <div class="category">
+          <div class="bookmarks cod">
+          <div class="icon"><img src="https://icongr.am/fontawesome/code.svg?size=48&color=bd93f9" /></div>
+            <li><a class="bm" href="https://www.hackerrank.com/dashboard">Hackerrank</a></li>
+            <li><a class="bm" href="https://www.udemy.com/">Udemy</a></li>
+            <li><a class="bm" href="https://github.com/">Github</a></li>
+            <li><a class="bm" href="https://github.com/hyperreal64?tab=stars">Github Starred</a></li>
+            <li><a class="bm" href="https://github.com/hyperreal64?tab=repositories">Github Repositories</a></li>
+            <li><a class="bm" href="https://hub.docker.com/">Docker Hub</a></li>
+            <li><a class="bm" href="https://pagure.io/fedora-infrastructure">Pagure.io</a></li>
+            <li><a class="bm" href="https://git.envs.net/">envs.net Gitea</a></li>
+            <li><a class="bm" href="https://www.coursera.org/in-progress">Coursera</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="bookmarks doc">
+          <div class="icon"><img src="https://icongr.am/fontawesome/book.svg?size=48&color=8be9fd" /></div>
+            <li><a class="bm" href="https://hyperreal64.github.io/#/">Techne</a></li>
+            <li><a class="bm" href="https://devdocs.io/">DevDocs.io</a></li>
+            <li><a class="bm" href="https://pkg.go.dev/">Go</a></li>
+            <li><a class="bm" href="https://docs.ansible.com/ansible/latest/index.html">Ansible</a></li>
+            <li><a class="bm" href="https://btrfs.wiki.kernel.org/index.php/Getting_started">Btrfs</a></li>
+            <li><a class="bm" href="https://spacevim.org/documentation/">SpaceVim</a></li>
+            <li><a class="bm" href="https://vim.rtorr.com/">Vim</a></li>
+            <li><a class="bm" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">VSCode</a></li>
+            <li><a class="bm" href="https://docs.python.org/3.9/library/index.html">Python</a></li>
+            <li><a class="bm" href="http://docs.podman.io/en/latest/">Podman.io</a></li>
+            <li><a class="bm" href="https://fedoraproject.org/wiki/Infrastructure">Fedora Infra</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="bookmarks soc">
+          <div class="icon"><img src="https://icongr.am/fontawesome/comments-o.svg?size=48&color=ff5555" /></div>
+            <li><a class="bm" href="https://webirc.envs.net/">envs.net web irc</a></li>
+            <li><a class="bm" href="https://facebook.com/">Facebook</a></li>
+            <li><a class="bm" href="https://www.youtube.com/">Youtube</a></li>
+            <li><a class="bm" href="https://www.linkedin.com/">LinkedIn</a></li>
+            <li><a class="bm" href="https://twitter.com/home">Twitter</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="bookmarks gam">
+          <div class="icon"><img src="https://icongr.am/fontawesome/gamepad.svg?size=48&color=ff79c6" /></div>
+            <li><a class="bm" href="https://en.uesp.net/wiki/Main_Page">UESP</a></li>
+            <li><a class="bm" href="https://www.elderscrollsonline.com/en-us/home">Elder Scrolls Online</a></li>
+            <li><a class="bm" href="https://dishonored.fandom.com/wiki/Dishonored_Wiki">Dishonored</a></li>
+            <li><a class="bm" href="https://masseffect.fandom.com/wiki/Mass_Effect_Wiki">Mass Effect</a></li>
+            <li><a class="bm" href="https://dragonage.fandom.com/wiki/Dragon_Age_Wiki">Dragon Age</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="bookmarks fin">
+          <div class="icon"><img src="https://icongr.am/fontawesome/dollar.svg?size=48&color=50fa7b" /></div> 
+            <li><a class="bm" href="https://www.paypal.com/">PayPal</a></li>
+            <li><a class="bm" href="https://app.klarna.com/">Klarna</a></li>
+            <li><a class="bm" href="https://uphold.com/dashboard">Uphold</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="bookmarks art">
+          <div class="icon"><img src="https://icongr.am/material/palette.svg?size=48&color=bd93f9" /></div>
+            <li><a class="bm" href="https://draculatheme.com/">Dracula Theme</a></li>
+            <li><a class="bm" href="https://www.nordtheme.com/">Nord Theme</a></li>
+            <li><a class="bm" href="https://icongr.am/">Icongram</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="bookmarks lin">
+          <div class="icon"><img src="https://icongr.am/devicon/linux-plain.svg?size=48&color=8be9fd" /></div>
+            <li><a class="bm" href="https://getfedora.org/">Fedora</a></li>
+            <li><a class="bm" href="https://silverblue.fedoraproject.org/">Fedora Silverblue</a></li>
+            <li><a class="bm" href="https://www.redhat.com/en">Red Hat</a></li>
+            <li><a class="bm" href="https://pop.system76.com/">Pop!_OS System76</a></li>
+            <li><a class="bm" href="https://ubuntu.com/">Ubuntu</a></li>
+            <li><a class="bm" href="https://distrowatch.com/">DistroWatch</a></li>
+          </div>
+        </div>
+    </div>
+  </body>
+
+</html>
