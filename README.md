@@ -38,7 +38,7 @@ sudo cp mozilla.cfg /usr/lib64/firefox/
 sudo cp local-settings.js /usr/lib64/firefox/defaults/pref/
 ```
 
-Note: The Firefox library path might be different dependening on your Linux distribution. On Fedora, it is `/usr/lib64/firefox`, but on other distros it might be `/usr/lib/firefox`.
+Note: The Firefox library path might be different depending on your Linux distribution. On Fedora, it is `/usr/lib64/firefox`, but on other distros it might be `/usr/lib/firefox`.
 
 Restart Firefox, and you should be good to go.
 
