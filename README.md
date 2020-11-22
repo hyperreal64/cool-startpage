@@ -1,5 +1,7 @@
 # cool-startpage
 
+I now use a version of this that I publish online here: https://gitlab.com/hyperreal64/hyperreal64.gitlab.io
+
 The code for this was taken from the firefox subdirectory of [dbuxy218/Prismatic-Night](https://github.com/dbuxy218/Prismatic-Night). I made the following changes to reflect my personal preferences:
 * `load.js` and `search.js` to make Wikipedia and ArchWiki searchable from the search engine input box. 
 * `style.css` to use a grid display with Zeno Rocha's [Dracula theme](https://draculatheme.com) (I'm obsessed with the Dracula theme)
